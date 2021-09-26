@@ -1,15 +1,17 @@
-<ion-header [translucent]="true">
+<!--<ion-header [translucent]="true">
   <ion-toolbar color="mycolor">
     <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" mode="md"></ion-back-button>
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title> clientes </ion-title>
   </ion-toolbar>
-</ion-header>
-
+</ion-header>-->
+<app-header></app-header>
 <ion-content>
 <div id="container">
   <p>Esta es mi página de clientes</p>
   <ion-button [routerLink]="['/inicio']" color="mycolor">Go to detail</ion-button>
 </div>
 </ion-content>
+
