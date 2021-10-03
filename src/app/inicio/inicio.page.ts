@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
+interface Componente {
+  icon: string,
+  name: string,
+  redirectTo: string;
+}
+
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.page.html',
@@ -7,6 +13,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicioPage implements OnInit {
 
+  componentes: Componente[]=[
+    {
+      icon: 'balloon',
+      name: 'Clientes',
+      redirectTo: '/clientes'
+    },
+    {
+      icon: 'basketball',
+      name: 'Action',
+      redirectTo: '/action'
+    }
+  ];
   constructor() { }
 
   ngOnInit() {
