@@ -9,8 +9,8 @@ export class AppComponent {
     /*{ title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
     { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
     { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },*/
+    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },*/
+    { title: 'Alert', url: '/alert', icon: 'trash' },
     { title: 'Inicio', url: '/inicio', icon: 'home' },
     { title: 'Clientes', url: '/clientes', icon: 'people' },
     { title: 'Acciones', url: '/action', icon: 'build' },
